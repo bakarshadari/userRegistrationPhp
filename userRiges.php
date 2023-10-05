@@ -92,7 +92,7 @@ require_once('configration.php');
                     $.ajax({
                         type:'POST',
                         url:'process.php',
-                        data{firstname: firstname,lastName:lastName, email: email , phoneNumber: phoneNumber, password:password},
+                        data:{firstname: firstname,lastName:lastName, email: email , phoneNumber: phoneNumber, password:password},
                         success: function(data){
                         swal.fire({
                                     'title': "successfull.",
